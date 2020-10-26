@@ -7,7 +7,7 @@ str name
 str studentNumber
 int grade
 list courses - to corresepond with course names
-list grade - to correspond with grades
+list grades - to correspond with grades
 
 It should have the following methods:
 average()       - determines the mathematical average of all course grades
@@ -44,8 +44,8 @@ def main():
     st1.getGrades( [91, 94, 87, 99, 82, 100, 73])
 
     st2 = student("Joe Lunchbox","12346", 11)
-    st1.getCourses( ["English","Math","Physics","Computers","Geography","Chemistry","French"] )
-    st1.getGrades( [71, 98, 93, 95, 68, 81, 71])
+    st2.getCourses( ["English","Math","Physics","Computers","Geography","Chemistry","French"] )
+    st2.getGrades( [71, 98, 93, 95, 68, 81, 71])
 
 
 

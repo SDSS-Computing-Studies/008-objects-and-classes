@@ -66,7 +66,7 @@ str name
 str studentNumber
 int grade
 list courses - to corresepond with course names
-list grade - to correspond with grades
+list grades - to correspond with grades
 
 It should have the following methods:
 average()       - determines the mathematical average of all course grades
